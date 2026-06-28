@@ -1,15 +1,30 @@
-2026-06-28 INFO: Sample log created.
-2026-06-28 19:13:37,218 ERROR:list indices must be integers or slices, not str
+2026-06-28 19:16:11,404 ERROR:Student not found
 Traceback (most recent call last):
-  File "C:\Users\Alvin Brandon\OneDrive\Desktop\alvin's programs\ecommerce-system\student_management.py", line 17, in add
-    d=load_json();d[r]={"address":ad,"contact":c,"program":p};save_json(d)
-                  ~^^^
-TypeError: list indices must be integers or slices, not str
-2026-06-28 19:14:06,698 ERROR:'list' object has no attribute 'get'
+  File "C:\Users\Alvin Brandon\OneDrive\Desktop\alvin's programs\ecommerce-system\student_management.py", line 54, in search
+    if not found: raise StudentNotFoundError("Student not found")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StudentNotFoundError: Student not found
+2026-06-28 19:21:13,357 ERROR:Student not found
 Traceback (most recent call last):
-  File "C:\Users\Alvin Brandon\OneDrive\Desktop\alvin's programs\ecommerce-system\student_management.py", line 30, in search
-    print(row,load_json().get(r,{}));found=True
-              ^^^^^^^^^^^^^^^
-AttributeError: 'list' object has no attribute 'get'
-2026-06-28 19:36:16,246 INFO:Added 24/U/23457/PS
-2026-06-28 22:27:40,402 INFO:Added 24/U/24762/PS
+  File "C:\Users\Alvin Brandon\OneDrive\Desktop\alvin's programs\ecommerce-system\student_management.py", line 56, in search
+    if not found: raise StudentNotFoundError("Student not found")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StudentNotFoundError: Student not found
+2026-06-28 19:22:45,941 ERROR:Student not found
+Traceback (most recent call last):
+  File "C:\Users\Alvin Brandon\OneDrive\Desktop\alvin's programs\ecommerce-system\student_management.py", line 56, in search
+    if not found: raise StudentNotFoundError("Student not found")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StudentNotFoundError: Student not found
+2026-06-28 19:25:26,746 ERROR:Student not found
+Traceback (most recent call last):
+  File "C:\Users\Alvin Brandon\OneDrive\Desktop\alvin's programs\ecommerce-system\student_management.py", line 59, in search
+    if not found: raise StudentNotFoundError("Student not found")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StudentNotFoundError: Student not found
+2026-06-28 19:26:59,339 ERROR:Student not found
+Traceback (most recent call last):
+  File "C:\Users\Alvin Brandon\OneDrive\Desktop\alvin's programs\ecommerce-system\student_management.py", line 59, in search
+    if not found: raise StudentNotFoundError("Student not found")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StudentNotFoundError: Student not found
